@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Henry Mishael</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="/" type="image/x-icon" />
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
@@ -16,7 +16,6 @@
     />
   </head>
   <body>
-    <!-- Colorful Background Doodles -->
     <svg
       class="doodle"
       width="100"
@@ -136,8 +135,6 @@
         stroke-width="3"
       />
     </svg>
-
-    <!-- Additional colorful doodles -->
     <svg
       class="doodle"
       width="60"
@@ -176,12 +173,14 @@
 
     <div class="profile-card">
       <div class="profile-header">
-        <img
-          src="/mishael.png"
-          alt="Profile Picture"
-          class="profile-picture"
-          data-testid="profilePicture"
-        />
+        <div class="profilePicture-wrapper">
+          <img
+            src="/mishael.jpg"
+            alt="Profile Picture"
+            class="profile-picture"
+            data-testid="profilePicture"
+          />
+        </div>
         <h1 class="full-name" data-testid="fullName">Henry Mishael</h1>
         <h2 class="job-title" data-testid="jobTitle">Frontend Developer</h2>
       </div>
